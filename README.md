@@ -1,64 +1,74 @@
-# Crypto Token Portfolio
+# 💰 Token Portfolio
 
-## Project info
+A modern and responsive **Crypto Token Portfolio Dashboard** built with **React, Vite, TypeScript, Tailwind CSS, and shadcn-ui**.  
+The app provides a real-time view of your crypto portfolio, including token prices, 24h performance, and portfolio distribution with interactive charts.
 
-**URL**: (https://token-portfolio-olive.vercel.app/)
-## How can I edit this code?
+🔗 **Live Demo**: [Token Portfolio](https://token-portfolio-olive.vercel.app/)
 
-There are several ways of editing your application.
+---
 
-**Use your preferred IDE**
+## 🚀 Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes.
+- 📊 **Portfolio Overview** – Total portfolio value with real-time updates  
+- 🟢🔴 **Token Watchlist** – Track token price, 24h % change, and sparkline graph  
+- 🍩 **Donut Chart** – Visual representation of token allocation  
+- ⚡ **Vite + React + TypeScript** – Superfast development and production build  
+- 🎨 **Tailwind CSS + shadcn-ui** – Clean, modern, and responsive UI  
+- 🌐 **API Integration** – Fetches live token data from [CoinGecko API](https://www.coingecko.com/en/api)  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Tech Stack
 
+- **Frontend Framework**: [React](https://react.dev/)  
+- **Build Tool**: [Vite](https://vitejs.dev/)  
+- **Language**: [TypeScript](https://www.typescriptlang.org/)  
+- **UI Framework**: [Tailwind CSS](https://tailwindcss.com/) + [shadcn-ui](https://ui.shadcn.com/)  
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the Repository
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/RITIKYADAV0070/Token-Portfolio.git
+cd Token-Portfolio
+## 2. Install Dependencies
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Make sure you have Node.js
+ installed.
 
-# Step 3: Install the necessary dependencies.
-npm i
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3. Start Development Server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open Vercel Link
-
-## Can I connect a custom domain to my Vercel project?
-
-Yes, you can!
 
 
+
+###🌍 Deployment
+
+This project is deployed on Vercel
+.
+
+Push your project to GitHub
+
+Connect your repo to Vercel
+
+Vercel will automatically deploy your project
+
+🔗 Custom Domain – You can add a custom domain via the Vercel dashboard.
+
+📂 Project Structure
+Token-Portfolio/
+├── public/               # Static assets
+├── src/
+│   ├── components/       # UI components
+│   ├── pages/            # Application pages
+│   ├── hooks/            # Custom hooks
+│   ├── utils/            # Helper functions
+│   ├── App.tsx           # Root component
+│   └── main.tsx          # Entry point
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js
+└── vite.config.ts
